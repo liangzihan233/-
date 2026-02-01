@@ -283,28 +283,24 @@ a {
 }
 
 .user-春 {
-	background-image: url(/春.jpg);
     background-size: cover; /* 关键属性：使图片覆盖整个div */
     background-position: center; /* 居中显示图片 */
     background-repeat: no-repeat; /* 防止图片重复 */
 }
 
 .user-夏 {
-	background-image: url(/夏.svg);
     background-size: contain; /* 关键属性：使图片覆盖整个div */
     background-position: center; /* 居中显示图片 */
     background-repeat: no-repeat; /* 防止图片重复 */
 }
 
 .user-秋 {
-	background-image: url(/秋.jpg);
     background-size: cover; /* 关键属性：使图片覆盖整个div */
     background-position: center; /* 居中显示图片 */
     background-repeat: no-repeat; /* 防止图片重复 */
 }
 
 .user-冬 {
-	background-image: url(/冬.svg);
     background-size: cover; /* 关键属性：使图片覆盖整个div */
     background-position: center; /* 居中显示图片 */
     background-repeat: no-repeat; /* 防止图片重复 */
