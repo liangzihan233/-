@@ -93,10 +93,8 @@ img {
     height: 100px;
 }
 
-@media screen and (max-width: 768px) {
     .box {
         width: 80%;
-    }
 }
 
 @keyframes fadeIn {

@@ -89,8 +89,12 @@ var script = {
   mounted() {
     this.init();
     window.addEventListener("resize", this.handleResize);
-    this.$el.addEventListener(this.touchStartEvent, this.onTouchStart);
-    document.addEventListener(this.touchEndEvent, this.onTouchEnd);
+    this.$nextTick(() => {
+      if (this.$el) {
+        this.$el.addEventListener(this.touchStartEvent, this.onTouchStart.bind(this));
+      }
+      document.addEventListener(this.touchEndEvent, this.onTouchEnd.bind(this));
+    });
   },
 
   watch: {

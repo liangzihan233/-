@@ -93,6 +93,10 @@ p{
 #frontPage {
   transform: rotateY(0deg);
   z-index: 2;
+  background-image: url("../../public/header/rose.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 #backPage {
@@ -117,7 +121,7 @@ h1 {
 }
 
 .date-time {
-  color: #777;
+  color: #000;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -139,7 +143,7 @@ h1 {
 }
 
 .date {
-  color: #777;
+  color: #000;
   font-size: 14px;
   margin: 0;
   margin-left: 30px;
@@ -177,18 +181,6 @@ h1 {
   height: auto;
   max-height: 300px;
   border-radius: 10px;
-}
-
-/* Ribbons */
-.page:before,
-.page:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  border: 3px solid #555;
-  width: 0;
-  height: 0;
-  z-index: 1;
 }
 
 .page:before {
